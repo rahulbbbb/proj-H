@@ -1,0 +1,93 @@
+.home__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../assets/freepik__nova-tech-logo-an-elegant-flowing-design-with-a-st__89898.png'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This creates the parallax effect */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Add this to make the container a positioning context */
+}
+
+.home__content {
+    max-width: 800px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text readability */
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* Adds a blur effect to the background */
+    position: relative; /* Add this to position the button relative to this container */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.home__title {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.home__subtitle {
+    font-size: 28px;
+    margin-bottom: 40px;
+    animation: slideIn 2s ease-in-out;
+}
+
+.home__cta {
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: absolute; 
+    right: 20px; 
+    bottom: 20px; 
+}
+
+.home__sta {
+    padding: 15px 30px;
+  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: absolute; 
+    right: 200px; 
+    bottom: 5px; 
+}
+
+.home__sta:hover {
+    transform: scale(1.05); 
+}
+
+.home__cta:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
