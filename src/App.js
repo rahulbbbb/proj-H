@@ -8,23 +8,22 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
 
-
 function App() {
-    return (
-        <>
-            <Header/>
-            <main className="main">
-                <Home/>
-                <About/>
-                <Services/>
-                <Testimonials/>
+  return (
+    <>
+      <Header />
+      <main className="main">
+        <Home />
+        <About />
+        <Services />
+        <Testimonials />
 
-                <Contact/>
-            </main>
-            <Footer/>
-            <ScrollUp/>
-        </>
-    );
+        <Contact />
+      </main>
+      <Footer />
+      <ScrollUp />
+    </>
+  );
 }
 
 export default App;

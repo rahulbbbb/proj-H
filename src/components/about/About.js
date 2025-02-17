@@ -1,9 +1,6 @@
 import React from 'react'
- //import AboutImg from '../../assets/profile.jpg' 
  import img from '../../assets/freepik__a-sleek-minimalist-logo-for-nova-tech-featuring-a-__89897.jpeg'
-/* import File from '../../assets' */
 
-/* import Info from './Info' */
 import './about.css'
 
 const About = () => {
@@ -19,7 +16,7 @@ const About = () => {
                     {/* <Info/> */}
 
                     <p className='about__description'>NovaTech Solutions is a forward-thinking technology company dedicated to delivering innovative software and IT solutions. We specialize in web development, mobile apps, and cloud services, empowering businesses to thrive in the digital age with cutting-edge technology and expert support..</p>
-                    <a  href="" className='button button--flex'>To Know more
+                    <a  href="#services" className='button button--flex'>To Know more
                     
                         <svg
                             class="button__icon"

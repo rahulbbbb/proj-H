@@ -1,6 +1,5 @@
 import React from 'react'
 import { BiDownArrowAlt } from "react-icons/bi";
-// assets
  import scroll from '../../assets/scroll.png'
 
 const ScrollDown = () => {
